@@ -32,15 +32,11 @@ Goal: take a messy marketing campaign dataset and produce an analysis-ready clea
 - `start_date` has **333** invalid/missing values (kept as null rather than imputing).
 
 ## How to run
-### Option 1 — Run the notebook (recommended)
+### Run the notebook in Colab
+
 Open: `notebooks/Data_Cleaning_with_Python.ipynb`  
 In Colab, upload the raw CSV and run cells top-to-bottom.
 
-### Option 2 — Run the script locally
-```bash
-pip install -r requirements.txt
-python src/cleaning_pipeline.py
-```
 
 ## Repo structure
 ```
